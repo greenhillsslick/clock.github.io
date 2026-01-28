@@ -45,4 +45,12 @@ self.addEventListener('fetch', (event) => {
                 }
             })
     );
+self.addEventListener('install', (e) => {
+  console.log('Service Worker instalado');
+});
+
+// Este evento fetch es OBLIGATORIO para que aparezca el botón "Instalar"
+self.addEventListener('fetch', (e) => {
+  // Aquí podrías gestionar el caché, pero dejarlo así ya cumple el requisito
+});
 });
