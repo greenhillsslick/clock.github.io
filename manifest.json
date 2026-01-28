@@ -2,7 +2,7 @@
     "name": "Reloj Digital",
     "short_name": "Reloj",
     "description": "Reloj digital minimalista",
-    "start_url": "/",
+    "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#1a1a2e",
     "theme_color": "#1a1a2e",
